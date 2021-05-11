@@ -3,10 +3,11 @@ Data Analysis
 Right off the bat, I noticed that the values for pi were alternating higher/lower every time a factor was added to the data. The factor
 increased with each minute-run of the API. Every factor that went by seemed to get closer and closer to the real value of pi. With each
 factor added, the range between that factor's pi and the one before it became smaller and smaller. The first digits of pi are as follows
-3.14159265359. With factor 1, the pi value was given as 4. With factor 60, the pi value was ________. This final pi was the closest the API
+3.14159265359. With factor 1, the pi value was given as 4. With factor 205379, the pi value was 3.1416. This final pi was the closest the API
 got to the true beginning digits of pi.
 
 This all seemed indicative of an alternating series. In order to further research this theory, I took to the Internet where I found the 
 Gregory-Leibniz Series. It follows the pattern of pi/4 = 1 - 1/3 + 1/5 - 1/7 + ... 
 
-According to this, the values of pi given from the API for each indicated factor matched a list I found online (see. Pi Series file). 
+According to this, the values of pi given from the API for each indicated factor matched a list I found online (see. Pi Series file). The higher
+the factor, the closer to pi it will become.
